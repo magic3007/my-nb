@@ -1,4 +1,6 @@
 # Shortcuts
 
-# cheatsheet
+#cheatsheet
 
+
+## 
