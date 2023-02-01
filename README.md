@@ -1,2 +1,2 @@
-# nb-home
+# my-nb
 📒 My CLI note repo.
