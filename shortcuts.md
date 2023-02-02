@@ -22,10 +22,10 @@ backspace # delete character backward
 C-k       # kill (to clipboard) to the end of line
 C-u       # kill (to clipboard) to the beginning of line
 
-Note: Although GNU readline maintains a kill ring (clipboard), works much like
-Emacs’s kill ring, it’s not shared with your system’s clipboard, nor any other
-instances of GNU readline.  It is, in effect, local to the process you’re
-running.
+# Note: Although GNU readline maintains a kill ring (clipboard), works much like
+# Emacs’s kill ring, it’s not shared with your system’s clipboard, nor any other
+# instances of GNU readline.  It is, in effect, local to the process you’re
+# running.
 ```
 
 ## Vimium on Chrome
