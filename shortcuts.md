@@ -2,25 +2,27 @@
 
 #cheatsheet
 
+This cheatsheet summarizes the most frequently used shortcuts in my daily routine. 
+Some shortcuts are defined as the manual, and  others are custom. The cheatsheet is 
+arranged by the workspace.
 
-## Readline
+## iterm2 
 
 ```bash
-# C: Ctrl
-# M: Alt
+#  * shortcuts in GNU readline
 
-C-b       # move backward one character
-C-f       # move forward one character
-M-b       # move backward one word
-M-f       # move forward on word
-C-a       # move to the begin of the line
-C-e       # move to the end of the line
+Ctrl-b        # move backward one character
+Ctrl-f        # move forward one character
+Alt-b         # move backward one word
+Alt-f         # move forward on word
+Ctrl-a        # move to the begin of the line
+Ctrl-e        # move to the end of the line
 
-C-d       # delete character forward
-backspace # delete character backward
+Ctrl-d        # delete character forward
+backspace     # delete character backward
 
-C-k       # kill (to clipboard) to the end of line
-C-u       # kill (to clipboard) to the beginning of line
+Ctrl-k           # kill (to clipboard) to the end of line
+Ctrl-u           # kill (to clipboard) to the beginning of line
 
 # Note: Although GNU readline maintains a kill ring (clipboard), works much like
 # Emacs’s kill ring, it’s not shared with your system’s clipboard, nor any other
@@ -28,4 +30,21 @@ C-u       # kill (to clipboard) to the beginning of line
 # running.
 ```
 
-## Vimium on Chrome
+## Chrome
+
+```bash
+Ctrl-l        # focus on the address bar 
+<Esc>         # focus from the address bar to the page
+```
+
+## MacOS  
+
+```bash
+
+# * shortcuts provided by Rectangle
+Ctrl-Alt-Cmd-<left/right arrow>       # move the current window the left/right screen 
+
+# * shortcuts provided by yabai and skhd
+S-M-s     # activate or deactivate yabai
+
+```
