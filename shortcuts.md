@@ -28,6 +28,11 @@ Ctrl-u           # kill (to clipboard) to the beginning of line
 # Emacs’s kill ring, it’s not shared with your system’s clipboard, nor any other
 # instances of GNU readline.  It is, in effect, local to the process you’re
 # running.
+
+# * shortcuts in neovim
+
+<Space>-tk     # telescope keymaps
+<Space>-lf     # format files
 ```
 
 ## Chrome
