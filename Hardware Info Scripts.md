@@ -1,6 +1,9 @@
 # Hardware Info Scripts
 
 ```bash
+# =============
+# ** CPU
+# =============
 # number and types of logical CPUs
 cat /proc/cpuinfo | grep name | cut -f2 -d: | uniq -c
 
@@ -18,4 +21,12 @@ cat /proc/cpuinfo | grep 'siblings' | uniq
  
 # 超线程（分别输出cpu cores和siblings数量，使用超线程则后者翻倍）
 cat /proc/cpuinfo | grep -e "cpu cores" -e "siblings" | sort | uniq
+
+# =============
+# ** Memory
+## =============
+
+# Memory in GB
+grep MemTotal /proc/meminfo | awk '{print $2;}' | awk '{print int($1/1024/1024);}'
+
 ```
