@@ -1,4 +1,4 @@
-# CPU Number
+# Hardware Info Scripts
 
 ```bash
 # number and types of logical CPUs
