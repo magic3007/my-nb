@@ -47,9 +47,7 @@ Ctrl-l        # focus on the address bar
 ```bash
 
 # * shortcuts provided by Rectangle
-Ctrl-Alt-Cmd-<left/right arrow>       # move the current window the left/right screen 
-
-# * shortcuts provided by yabai and skhd
-S-M-s     # activate or deactivate yabai
+Ctrl-Option-Cmd-<left/right arrow>               # move the current window the left/right screen 
+Ctrl-Option-<left/right/up/down arrow>           # move left/right/top/bottom half
 
 ```
