@@ -41,9 +41,15 @@ Ctrl-u        # kill (to clipboard) to the beginning of line
 Ctrl-y                  # yank from kill ring
 Alt-y                   # (after Ctrl-y) cycle through kin ring history
 
-
 Alt-t         # swap word
 Ctrl-t        # swap character
+
+Alt-u         # Upper forward word
+Alt-l         # Lower forward word
+Alu-c         # Capitalize forward word
+
+Ctrl-/ 
+Ctrl--        # Cycle through the undo list
 
 # * shortcuts in neovim
 
