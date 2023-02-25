@@ -10,11 +10,15 @@ arranged by the workspace.
 
 ```bash
 #  * shortcuts in GNU readline
+# Reference:
+# - https://www.masteringemacs.org/article/keyboard-shortcuts-every-command-line-hacker-should-know-about-gnu-readline
 
 Ctrl-b        # move backward one character
 Ctrl-f        # move forward one character
+
 Alt-b         # move backward one word
 Alt-f         # move forward on word
+
 Ctrl-a        # move to the begin of the line
 Ctrl-e        # move to the end of the line
 
