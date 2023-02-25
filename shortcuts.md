@@ -25,13 +25,25 @@ Ctrl-e        # move to the end of the line
 Ctrl-d        # delete character forward
 backspace     # delete character backward
 
-Ctrl-k           # kill (to clipboard) to the end of line
-Ctrl-u           # kill (to clipboard) to the beginning of line
+Ctrl-w        # kill word forward
+Alt-d         # kill word backward
 
+Ctrl-k        # kill (to clipboard) to the end of line
+Ctrl-u        # kill (to clipboard) to the beginning of line
+
+# delete: only delete word
+# kill:   delete word and save to clipboard
 # Note: Although GNU readline maintains a kill ring (clipboard), works much like
 # Emacs’s kill ring, it’s not shared with your system’s clipboard, nor any other
 # instances of GNU readline.  It is, in effect, local to the process you’re
 # running.
+
+Ctrl-y                  # yank from kill ring
+Alt-y                   # (after Ctrl-y) cycle through kin ring history
+
+
+Alt-t         # swap word
+Ctrl-t        # swap character
 
 # * shortcuts in neovim
 
