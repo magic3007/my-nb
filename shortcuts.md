@@ -57,6 +57,10 @@ Ctrl--        # Cycle through the undo list
 <Space>-lf     # format files
 ```
 
+## Vscode
+```bash
+
+```
 ## Chrome
 
 ```bash
