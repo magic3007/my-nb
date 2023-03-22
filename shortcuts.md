@@ -55,6 +55,11 @@ Ctrl--        # Cycle through the undo list
 
 <Space>-tk     # telescope keymaps
 <Space>-lf     # format files
+
+# * shortcuts in gdb dashboard
+
+# To change the layout, e.g., show only source, expressions, and disable assembly, run:
+dashboard -layout source expressions !assembly
 ```
 
 ## Vscode
