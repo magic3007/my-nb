@@ -62,8 +62,11 @@ Ctrl--        # Cycle through the undo list
 dashboard -layout source expressions !assembly
 ```
 
-## Vscode
+## Vscode for MacOS
 ```bash
+Shift-Command-E # show explores / troggle focus
+Command-\       # split editor
+
 
 ```
 ## Chrome
