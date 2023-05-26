@@ -66,6 +66,8 @@ dashboard -layout source expressions !assembly
 ```bash
 Shift-Command-E # show explores / troggle focus
 Command-\       # split editor
+Ctrl--          # move backward
+Ctrl-shift--    # move forward
 
 
 ```
