@@ -69,7 +69,9 @@ Command-\       # split editor
 Ctrl--          # move backward
 Ctrl-shift--    # move forward
 
-
+# custom vim keymaps
+<leader>-h      # toggle sidebar visibility 
+<leader>-ff     # format document
 ```
 ## Chrome
 
