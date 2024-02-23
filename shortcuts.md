@@ -78,6 +78,10 @@ Ctrl-shift--    # move forward
 ```bash
 Ctrl-l        # focus on the address bar 
 <Esc>         # focus from the address bar to the page
+H             # go back in history
+L             # go forward in history
+J             # go one tab left
+k             # go one tab right
 ```
 
 ## MacOS  
