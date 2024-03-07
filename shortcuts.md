@@ -63,16 +63,19 @@ dashboard -layout source expressions !assembly
 ```
 
 ## Vscode for MacOS
+
 ```bash
 Shift-Command-E # show explores / troggle focus
 Command-\       # split editor
 Ctrl--          # move backward
 Ctrl-shift--    # move forward
+Command-T       # fuzzy symbol search globally
 
 # custom vim keymaps
 <leader>-h      # toggle sidebar visibility 
 <leader>-ff     # format document
 ```
+
 ## Chrome
 
 ```bash
